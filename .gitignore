@@ -1,0 +1,18 @@
+# Uploads (keep directory, ignore files)
+uploads/*
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment overrides (if added later)
+.env
+config.local.php
