@@ -1,6 +1,7 @@
-# Uploads (keep directory, ignore files)
-uploads/*
+# Uploads (keep directories, ignore uploaded files)
+uploads/**/*
 !uploads/.gitkeep
+!uploads/**/.gitkeep
 
 # OS files
 .DS_Store
